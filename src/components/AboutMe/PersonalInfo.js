@@ -1,15 +1,5 @@
 import React from 'react';
 
-const info = [
-  { label: "Name", value: "Baleria Reyes" },
-  { label: "Location", value: "Bend, Oregon" },
-  { label: "Education", value: "Oregon State University computer science student" },
-  { label: "Languages", value: "Fluent in English and Spanish" },
-];
-
-<PersonalInfo info={info} />
-
-
 const PersonalInfo = ({ info }) => {
     return (
         <div className="personal-info">
